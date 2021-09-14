@@ -6,6 +6,7 @@ use crate::gamecore::{Camera, Render};
 pub const DISPLAY_WIDTH: i32 = 60;
 pub const DISPLAY_HEIGHT: i32 = 50;
 
+/// Basic obstacle
 pub struct Obstacle {
     pub x: i32,
     gap: i32,
@@ -30,6 +31,7 @@ impl Obstacle {
 }
 
 impl Render for Obstacle {
+    /// Implementation of render trait for Obstacle
     fn render(&self, camera: &Camera, context: &mut BTerm) {
         let screen_x = camera.width / 2 - (camera.x - self.x);
         let half_height = self.height / 2;

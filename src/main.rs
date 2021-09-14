@@ -19,6 +19,7 @@ enum GameState {
     End,
 }
 
+/// Game state
 struct State {
     camera: Camera,
     player: Player,

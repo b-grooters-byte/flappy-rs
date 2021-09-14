@@ -12,9 +12,11 @@ This Flappy Bird clone is developed from the material in "Hands-on Rust" by Herb
 
 The power ups are randomly pre-generated based on expected maximum game completion. There are 3 levels of power up:
 
-* Bronze (Low)       5
-* Silver (Medium)   10
-* Gold   (High)     15
+ Level           | Points 
+-----------------|--------
+ Bronze (Low)    |  5     
+ Silver (Medium) | 10     
+ Gold   (High)   | 15     
 
 The player consumes a single power point per flap and must fly through a power up to add power.
 

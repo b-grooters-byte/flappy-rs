@@ -4,6 +4,7 @@ use crate::gamecore::{Camera, Render};
 
 const PLAYER_INIT_POWER: u32 = 20;
 
+/// Flappy bird player
 pub struct Player {
     pub x: i32,
     pub y: i32,
