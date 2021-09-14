@@ -14,6 +14,7 @@ pub struct Obstacle {
 }
 
 impl Obstacle {
+    /// Creates a new obstacle
     pub fn new(x: i32, score: i32) -> Self {
         let mut random = RandomNumberGenerator::new();
         Obstacle {

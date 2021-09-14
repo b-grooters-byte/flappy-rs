@@ -24,6 +24,8 @@ impl Player {
         }
     }
 
+    /// Updates the player position. The velocity is used to update the Y
+    /// position and the player is advanced along the X axis.
     pub fn update(&mut self) {
         if self.velocity < 2.0 {
             self.velocity += 0.2;

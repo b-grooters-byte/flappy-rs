@@ -1,6 +1,5 @@
 use bracket_lib::prelude::BTerm;
 
-
 /// Game components must implement render
 pub trait Render {
     fn render(&self, camera: &Camera, context: &mut BTerm);

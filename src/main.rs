@@ -37,6 +37,7 @@ struct State {
 }
 
 impl State {
+    /// Creates a new game state. 
     fn new() -> Self {
         let camera = Camera::new(
             element::DISPLAY_WIDTH / 2,
